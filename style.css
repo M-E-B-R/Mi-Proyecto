@@ -1,0 +1,52 @@
+*{
+    font-family: 'Lora', serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo {
+width: 80px;
+padding-bottom: 12px;
+}
+
+/* Cabecera */
+.encabezado{
+ display: flex;
+ background: rgb(246,0,0);
+background: linear-gradient(90deg, rgba(246,0,0,1) 16%, rgba(227,184,7,1) 77%);
+justify-content: space-between;
+padding: 10px;
+width: 100%;
+height: 50px;
+}
+
+.list-nav{
+list-style: none;    
+display: flex;
+gap: 12px;
+text-align:end ;
+}
+
+/* Pie de pagina */
+footer{
+    background: rgb(62, 59, 59);
+    color: white;
+    display: flex;
+    padding: 12px;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+.tirando-tomates{
+ 
+    color: white;
+}
+
+/* Fase 1 */
+.titulo{
+text-align: center;
+}
+
+.intro{
+}

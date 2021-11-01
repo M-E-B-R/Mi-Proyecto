@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 .logo {
-width: 80px;
+width: 90px;
 padding-bottom: 12px;
 }
 
@@ -24,8 +24,58 @@ height: 50px;
 list-style: none;    
 display: flex;
 gap: 12px;
-text-align:end ;
+text-align:end;
+color: black;
 }
+
+.item-nav{
+    text-decoration: none;
+    color: black;
+}
+
+/* Main */
+.title{
+    text-align: center;
+    padding: 10px;
+
+}
+
+/* Imagenes main general */
+
+.fase1-i{
+    width: 400px;
+    padding: 12px;
+}
+
+.fase2-i{
+    width: 400px;
+    padding: 12px;
+}
+
+.fase3-i{
+    width: 400px;
+    padding: 12px;
+}
+
+.estrenos-i{
+    width: 400px;
+    padding: 12px;
+}
+.series-i{
+    width: 400px;
+    padding: 12px;
+}
+
+/* Fase 1 */
+.titulo1{
+    text-align: center;
+    padding-top: 10px;
+    }
+    
+    .intro1{
+        padding: 10px;
+        text-align: justify;
+    }
 
 /* Pie de pagina */
 footer{
@@ -43,10 +93,3 @@ footer{
     color: white;
 }
 
-/* Fase 1 */
-.titulo{
-text-align: center;
-}
-
-.intro{
-}

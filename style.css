@@ -9,7 +9,8 @@
 width: 100px;
 padding-bottom: 12px;
 }
-/* Cabecera */
+
+        /* Cabecera */
 .encabezado{
  display: flex;
  background: rgb(236,29,35);
@@ -30,7 +31,8 @@ color: black;
     text-decoration: none;
     color: black;
 }
-/* Main general */
+
+       /* Main inicio */
 .general{
     background-image: url(/Imagenes/fondo.webp);
 }
@@ -52,7 +54,8 @@ color: black;
     padding: 12px;
     border-radius: 8px;
 }
-/* Imagenes main general */
+
+        /* Imagenes main inicio */
 .image-general{
     display: flex;
     justify-content: space-between;
@@ -81,16 +84,36 @@ color: black;
 .series-i{
     width: 400px;
     padding: 12px;
+}    
+
+        /* Fase 1 */
+.general-f1{
+    background-image: url(/Imagenes/fondo-f1.jpg);
 }
-/* Fase 1 */
-.titulo1{
+.titulog{
+    background-color: rgba(198,198,200,1);
+    padding: 10px;
     margin: 12px;
+    display: inline-flex;
+    border-radius: 8px;
 }
+.ironman1{
     
-    .intro1{
-        padding: 10px;
-        text-align: justify;
-    }
+}
+
+.img-ironman1{
+    height: 300px;
+}
+.img-reseña-ironman1{
+    width: 300px;
+    height: 216px;
+}
+.reseña-exp{
+    display: grid;
+
+}
+
+
 
 /* Pie de pagina */
 footer{

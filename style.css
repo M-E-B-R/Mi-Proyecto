@@ -4,7 +4,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 .logo {
 width: 100px;
 padding-bottom: 12px;
@@ -34,7 +33,7 @@ color: black;
 
        /* Main inicio */
 .general{
-    background-image: url(fondo.webp);
+    background-image: url(/Imagenes/fondo.webp);
 }
 .title{
     background-color: rgba(198,198,200,1);
@@ -47,7 +46,7 @@ color: black;
     padding: 12px
 }
 .background{
-    background-color: rgba(198,198,200,1);
+    background-color: rgba(198,198,200,0.9);
     margin-right: 12px;
     margin-left: 12px;
     margin-bottom: 12px;
@@ -60,19 +59,7 @@ color: black;
     display: flex;
     justify-content: space-between;
 }
-.fase1-i{
-    width: 400px;
-    height: 216px;
-}
-.fase2-i{
-    width: 400px;
-    height: 216px;
-}
-.fase3-i{
-    width: 400px;
-    height: 216px;
-}
-.fase4-i{
+.fase1-i , .fase2-i , .fase3-i , .fase4-i{
     width: 400px;
     height: 216px;
 }
@@ -88,142 +75,64 @@ color: black;
 
         /* Fase 1 */
 .general-f1{
-background-image: url(fondo-f1.jpg);
+background-image: url(/Imagenes/fondo-f1.jpg);
 }
-.titulog{
+.titulog , .titulog2{
 background-color: rgba(198,198,200,1);
 padding: 10px;
 margin: 12px;
 display: inline-flex;
 border-radius: 8px;
 }
-    /* Iron-man 1 */
 
-.ironman-1{
+        /* Codigos generales */
+
+.titulo-hulk , .titulo-ironman-2 , .titulo-thor , .titulo-capitanamerica , .titulo-avengers , .titulo-thor-dark , .titulo-capitanamerica-winter , .titulo-guardians , .titulo-avengers-ultron , .titulo-antman{
+    padding-top: 13px;
+}
+.ironman-1 , .hulk , .ironman-2 , .thor , .capitanamerica , .avengers , .ironman-3 , .thor-dark , .capitanamerica-winter , .guardians , .avengers-ultron , .ant-man{
     display: flex;
     justify-content: space-around;
 }
-.img-ironman1{
+.img-ironman1 , .img-hulk , .img-ironman2 , .img-thor , .img-capitan {
     height: 300px;
 }
-.ironman1-reseña{
+.ironman1-reseña , .hulk-reseña , .ironman2-reseña , .thor-reseña , .capitanamerica-reseña , .avengers-reseña , .ironman3-reseña , .thor-dark-reseña , .capitanamerica-winter-reseña , .guardians-reseña , .avengers-ultron-reseña , .antman-reseña{
     display: grid;
     height: fit-content;
     padding: 0 12px;
 }
-.img-reseña-ironman1{
+
+.img-reseña-ironman1 , .img-reseña-hulk , .img-reseña-ironman3 , .img-reseña-thor-dark , .img-reseña-capitain-winter , .img-reseña-guardians , .img-reseña-avengers-ultron , .img-reseña-antman{
     width: 329px;
 }
-.reseña-ironman1{
+.reseña-ironman1 , .reseña-hulk , .reseña-ironman2 , .reseña-thor , .reseña-capitanamerica , .reseña-avengers , .reseña-ironman-3 , .reseña-thor-dark , .reseña-capitain-winter , .reseña-guardians , .reseña-avengers-ultron , .reseña-antman{
     padding: 13px 0 0;
     text-align: inherit;
 }
-     /* Hulk */
-.titulo-hulk{
-    padding-top: 13px;
-}
-.hulk{
-    display: flex;
-    justify-content: space-around;
-}
-.img-hulk{
-    height: 300px;
-}
-.hulk-reseña{
-    display: grid;
-    height: fit-content;
-    padding: 0 12px;
-}
-.img-reseña-hulk{
-    width: 329px;
-}
-.reseña-hulk{
-    padding-top: 10px;
-    text-align: inherit;
-}
-     /* Ironman 2 */
-.titulo-ironman-2{
-    padding-top: 13px;
-}
-.ironman-2{
-    display: flex;
-    justify-content: space-around;
-}
-.img-ironman2{
-    height: 300px;
-}
-.ironman2-reseña{
-    display: grid;
-    height: fit-content;
-    padding: 0 12px;
-}
-.reseña-ironman2{
-    padding-top: 10px;
-    text-align: inherit;
-}
-     /* Thor */
-.titulo-thor{
-    padding-top: 13px;
-}
-.thor{
-    display: flex;
-    justify-content: space-around;
-}
-.img-thor{
-    height: 300px;
-}
-.thor-reseña{
-    display: grid;
-    height: fit-content;
-    padding: 0 12px;
-}
-.reseña-thor{
-    padding-top: 10px;
-    text-align: inherit;
-}
-     /* Capitan america 1 */
-.titulo-capitanamerica{
-    padding-top: 13px;
-}
-.capitanamerica{
-    display: flex;
-    justify-content: space-around;
-}
-.img-capitan{
-    height: 300px;
-}
-.capitanamerica-reseña{
-    display: grid;
-    height: fit-content;
-    padding: 0 12px;
-}
-.reseña-capitanamerica{
-    padding-top: 10px;
-    text-align: inherit;
-}
+        /* Imagenes de Fase 2, más grandes */
 
-     /* Avengers */
-.titulo-avengers{
-    padding-top: 13px;
+.img-ironman3 , .img-thor-dark , .img-capitain-winter , .img-guardians , .img-avengers-ultron , .img-antman{
+    width: 321px;
 }
-.avengers{
-    display: flex;
-    justify-content: space-around;
-}
+     /* Especificas */
+
+        /* Avengers */
 .img-avengers{
     height: 360px;
 }
-.avengers-reseña{
-    display: grid;
-    height: fit-content;
-    padding: 0 12px;
-}
-.reseña-avengers{
-    padding-top: 10px;
-    text-align: inherit;
-}
 
-/* Pie de pagina */
+        /* Fase 2 */
+.general-f2{
+    background-image: url(/Imagenes/fondo-f2.jpg);
+}
+     
+
+
+
+
+
+     /* Pie de pagina */
 footer{
     background: rgb(62, 59, 59);
     color: white;

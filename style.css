@@ -33,7 +33,7 @@ color: black;
 
        /* Main inicio */
 .general{
-    background-image: url(fondo.webp);
+    background-image: url(/fondo.webp);
 }
 .title{
     background-color: rgba(198,198,200,1);

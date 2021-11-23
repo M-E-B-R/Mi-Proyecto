@@ -84,39 +84,39 @@ background-image: url(/Imagenes/fondo-f1.jpg);
     padding: 12px;
     border-radius: 8px;
 }
-.titulog , .titulog2 , .titulog3{
+.titulog , .titulog2 , .titulog3 , .titulog4 , .titulog-futuros{
 background-color: rgba(198,198,200,1);
 padding: 10px;
 margin: 12px;
 display: inline-flex;
 border-radius: 8px;
 }
-.titulo-hulk , .titulo-ironman-2 , .titulo-thor , .titulo-capitanamerica , .titulo-avengers , .titulo-thor-dark , .titulo-capitanamerica-winter , .titulo-guardians , .titulo-avengers-ultron , .titulo-antman , .titulo-strange , .titulo-guardians2 , .titulo-spiderman-homecoming , .titulo-ragnarok , .titulo-pantera , .titulo-infinity , .titulo-antman-wasp , .titulo-capitana-marvel , .titulo-endgame , .titulo-spiderman-farfrom{
-    padding-top: 13px;
+.titulo-hulk , .titulo-ironman-2 , .titulo-thor , .titulo-capitanamerica , .titulo-avengers , .titulo-thor-dark , .titulo-capitanamerica-winter , .titulo-guardians , .titulo-avengers-ultron , .titulo-antman , .titulo-strange , .titulo-guardians2 , .titulo-spiderman-homecoming , .titulo-ragnarok , .titulo-pantera , .titulo-infinity , .titulo-antman-wasp , .titulo-capitana-marvel , .titulo-endgame , .titulo-spiderman-farfrom , .titulo-shang-chi , .titulo-eternals , .titulo-enlaces , .titulo-noway , .titulo-strange2 , .titulo-thor-love , .titulo-wakanda , .titulo-futuros-series , .titulo-hawkeye , .titulo-msmarvel , .titulo-antman2 , .titulo-guardians3{
+    padding-top: 16px;
 }
-.ironman-1 , .hulk , .ironman-2 , .thor , .capitanamerica , .avengers , .ironman-3 , .thor-dark , .capitanamerica-winter , .guardians , .avengers-ultron , .ant-man , .capitain-civilwar , .doctor-strange , .guardians2 , .spiderman-homecoming , .thor-ragnarok , .pantera , .infinity , .antman-wasp , .capitana-marvel , .endgame , .spiderman-farfrom{
+.ironman-1 , .hulk , .ironman-2 , .thor , .capitanamerica , .avengers , .ironman-3 , .thor-dark , .capitanamerica-winter , .guardians , .avengers-ultron , .ant-man , .capitain-civilwar , .doctor-strange , .guardians2 , .spiderman-homecoming , .thor-ragnarok , .pantera , .infinity , .antman-wasp , .capitana-marvel , .endgame , .spiderman-farfrom , .widow , .shang-chi , .eternals{
     display: flex;
     justify-content: space-around;
 }
 .img-ironman1 , .img-hulk , .img-ironman2 , .img-thor , .img-capitan {
     height: 300px;
 }
-.ironman1-reseña , .hulk-reseña , .ironman2-reseña , .thor-reseña , .capitanamerica-reseña , .avengers-reseña , .ironman3-reseña , .thor-dark-reseña , .capitanamerica-winter-reseña , .guardians-reseña , .avengers-ultron-reseña , .antman-reseña , .capitain-civilwar-reseña , .doctor-strange-reseña , .guardians2-reseña , .homecoming-reseña , .ragnarok-reseña , .pantera-reseña , .infinity-reseña , .antman-wasp-reseña , .endgame-reseña , .capitana-marvel-reseña , .spiderman-farfrom-reseña{
+.ironman1-reseña , .hulk-reseña , .ironman2-reseña , .thor-reseña , .capitanamerica-reseña , .avengers-reseña , .ironman3-reseña , .thor-dark-reseña , .capitanamerica-winter-reseña , .guardians-reseña , .avengers-ultron-reseña , .antman-reseña , .capitain-civilwar-reseña , .doctor-strange-reseña , .guardians2-reseña , .homecoming-reseña , .ragnarok-reseña , .pantera-reseña , .infinity-reseña , .antman-wasp-reseña , .endgame-reseña , .capitana-marvel-reseña , .spiderman-farfrom-reseña , .blackwidow-reseña , .shang-chi-reseña , .eternals-reseña {
     display: grid;
     height: fit-content;
     padding: 0 12px;
 }
 
-.img-reseña-ironman1 , .img-reseña-hulk , .img-reseña-ironman3 , .img-reseña-thor-dark , .img-reseña-capitain-winter , .img-reseña-guardians , .img-reseña-avengers-ultron , .img-reseña-antman{
+.img-reseña-ironman1 , .img-reseña-hulk , .img-reseña-ironman3 , .img-reseña-thor-dark , .img-reseña-capitain-winter , .img-reseña-guardians , .img-reseña-avengers-ultron , .img-reseña-antman {
     width: 329px;
 }
-.reseña-ironman1 , .reseña-hulk , .reseña-ironman2 , .reseña-thor , .reseña-capitanamerica , .reseña-avengers , .reseña-ironman-3 , .reseña-thor-dark , .reseña-capitain-winter , .reseña-guardians , .reseña-avengers-ultron , .reseña-antman , .reseña-guardians2 , .reseña-homecoming , .reseña-ragnarok , .reseña-pantera , .reseña-infinity , .reseña-antman-wasp , .reseña-capitana-marvel , .reseña-spiderman-farfrom{
+.reseña-ironman1 , .reseña-hulk , .reseña-ironman2 , .reseña-thor , .reseña-capitanamerica , .reseña-avengers , .reseña-ironman-3 , .reseña-thor-dark , .reseña-capitain-winter , .reseña-guardians , .reseña-avengers-ultron , .reseña-antman , .reseña-guardians2 , .reseña-homecoming , .reseña-ragnarok , .reseña-pantera , .reseña-infinity , .reseña-antman-wasp , .reseña-capitana-marvel , .reseña-spiderman-farfrom , .reseña-blackwidow , .reseña-shang-chi , .reseña-eternals{
     padding: 13px 0 0;
     text-align: inherit;
 }
         /* Imagenes de Fase 2, más grandes */
 
-.img-ironman3 , .img-thor-dark , .img-capitain-winter , .img-guardians , .img-avengers-ultron , .img-antman , .img-strange , .img-guardians2 , .img-homecoming , .img-ragnarok , .img-infinity , .img-antman-wasp , .img-capitana-marvel , .img-endgame , .img-spiderman-farfrom{
+.img-ironman3 , .img-thor-dark , .img-capitain-winter , .img-guardians , .img-avengers-ultron , .img-antman , .img-strange , .img-guardians2 , .img-homecoming , .img-ragnarok , .img-infinity , .img-antman-wasp , .img-capitana-marvel , .img-endgame , .img-spiderman-farfrom , .img-widow , .img-shang-chi , .img-eternals , .img-spiderman-noway , .img-strange2 , .img-thorlove , .img-wakanda , .img-antman2 , .img-guardians3 , .img-hawkeye , .img-msmarvel , .img-moon{
     width: 321px;
 }
      /* Especificas */
@@ -125,18 +125,38 @@ border-radius: 8px;
 .img-avengers{
     height: 360px;
 }
+        /* Eternals */
+.img-reseña-eternals{
+    width: 401px;
+    height: 116px;
+}
 
         /* Fase 2 */
 .general-f2{
     background-image: url(/Imagenes/fondo-f2.jpg);
 }
  
-        /* Fase 2 */   
+        /* Fase 3 */   
 .general-f3{
     background-image: url(/Imagenes/fondo-f3.jpg);
 } 
-
-
+        /* Fase 4 */
+.general-f4{
+    background-image: url(/Imagenes/fondo-f4.jpg);
+}
+        /* Futuros estrenos */
+.general-futuros{
+    background-image: url(/Imagenes/fondo-futuro.jpg);
+}
+.Spiderman-noway , .strange2 , .thorlove , .wakanda , .marvels , .antman2 , .guardians3 , .hawkeye , .msmarvel , .moon-knight{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Spiderman-noway-texto , .strange2-texto , .thorlove-texto , .wakanda-texto , .marvels-texto , .antman2-texto , .hawkeye-texto , .msmarvel-texto , .moon-texto{
+    display: grid;
+    height: fit-content;
+    padding: 0 12px;
+}
 
 
 
@@ -150,7 +170,6 @@ footer{
     display: block;
     width: 100%;
 }
-
 .tirando-tomates{
  
     color: white;

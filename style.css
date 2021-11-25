@@ -115,8 +115,11 @@ border-radius: 8px;
 }
         /* Imagenes de Fase 2, más grandes */
 
-.img-ironman3 , .img-thor-dark , .img-capitain-winter , .img-guardians , .img-avengers-ultron , .img-antman , .img-strange , .img-guardians2 , .img-homecoming , .img-ragnarok , .img-infinity , .img-antman-wasp , .img-capitana-marvel , .img-endgame , .img-spiderman-farfrom , .img-widow , .img-shang-chi , .img-eternals , .img-spiderman-noway , .img-strange2 , .img-thorlove , .img-wakanda , .img-antman2 , .img-guardians3 , .img-hawkeye , .img-msmarvel , .img-moon , .img-shehulk , .img-secret , .img-echo , .img-heart , .img-agatha , .img-zombies , .img-spiderman-serie , .img-shield , .img-inhumans , .img-daredevil , .img-jessica , .img-luke , .img-iron , .img-defenders , .img-punisher , .img-runaways , .img-cloak , .img-wanda , .img-falcon , .img-loki , .img-whatif{
+.img-ironman3 , .img-thor-dark , .img-capitain-winter , .img-guardians , .img-avengers-ultron , .img-antman , .img-strange , .img-guardians2 , .img-homecoming , .img-ragnarok , .img-infinity , .img-antman-wasp , .img-capitana-marvel , .img-endgame , .img-spiderman-farfrom , .img-widow , .img-shang-chi , .img-eternals , .img-spiderman-noway , .img-strange2 , .img-thorlove , .img-wakanda , .img-antman2 , .img-guardians3 , .img-hawkeye , .img-msmarvel , .img-moon , .img-shehulk , .img-secret , .img-echo , .img-heart , .img-agatha , .img-zombies , .img-spiderman-serie , .img-shield , .img-inhumans , .img-daredevil , .img-jessica , .img-luke , .img-iron , .img-defenders , .img-punisher , .img-runaways , .img-wanda , .img-falcon , .img-loki , .img-whatif{
     width: 321px;
+}
+.img-cloak{
+    width:350px
 }
      /* Especificas */
 

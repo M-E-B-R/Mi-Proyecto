@@ -33,7 +33,7 @@ color: black;
 
        /* Main inicio */
 .general{
-    background-image: url(/fondo.webp);
+    background-image: url(/Imagenes/fondo.webp);
 }
 .title{
     background-color: rgba(198,198,200,1);
@@ -70,7 +70,7 @@ color: black;
 
         /* Fase 1 */
 .general-f1{
-background-image: url(/fondo-f1.jpg);
+background-image: url(/Imagenes/fondo-f1.jpg);
 }
 
 
@@ -132,20 +132,20 @@ border-radius: 8px;
 
         /* Fase 2 */
 .general-f2{
-    background-image: url(/fondo-f2.jpg);
+    background-image: url(/Imagenes/fondo-f2.jpg);
 }
  
         /* Fase 3 */   
 .general-f3{
-    background-image: url(/fondo-f3.jpg);
+    background-image: url(/Imagenes/fondo-f3.jpg);
 } 
         /* Fase 4 */
 .general-f4{
-    background-image: url(/fondo-f4.jpg);
+    background-image: url(/Imagenes/fondo-f4.jpg);
 }
         /* Futuros estrenos */
 .general-futuros{
-    background-image: url(/fondo-futuro.jpg);
+    background-image: url(/Imagenes/fondo-futuro.jpg);
 }
 .Spiderman-noway , .strange2 , .thorlove , .wakanda , .marvels , .antman2 , .msmarvel , .moon-knight , .shehulk , .secret-invasion{
     display: flex;
@@ -163,7 +163,7 @@ border-radius: 8px;
 
          /* Series */
 .general-series{
-    background-image: url(/fondo-serie.jpg);
+    background-image: url(/Imagenes/fondo-serie.jpg);
 }
 .exp-serie{
     padding: 5px;

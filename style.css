@@ -256,3 +256,55 @@ footer{
     justify-content: center;
     padding-top: 12px;
 }
+         /* Media queries */
+    /* General */
+@media (max-width:768px) {
+    .logo{
+        display: none;
+    }
+    .list-nav{
+        padding: 0;
+        text-align: center;
+        font-size: 14px;
+    }
+    .encabezado{
+        width: 100%;
+    }
+    .image-general{
+        flex-direction: column;
+    }
+    .fase1-i , .fase2-i , .fase3-i , .fase4-i , .estenos-i , .series-i {
+        padding-top: 5px;
+        width: 350px;
+    }
+    .subtitle{
+        padding-top: 10px;
+        margin: 0;
+    }
+    /* generales */
+    .ironman-1 , .hulk , .ironman-2 , .thor , .capitanamerica , .avengers , .ironman-3 , .thor-dark , .capitanamerica-winter , .guardians , .avengers-ultron , .ant-man , .capitain-civilwar , .doctor-strange , .guardians2 , .spiderman-homecoming , .thor-ragnarok , .pantera , .infinity , .antman-wasp , .capitana-marvel , .endgame , .spiderman-farfrom , .widow , .shang-chi , .eternals , .agentsof-shield , .daredevil , .jessica , .luke , .iron , .defenders , .punisher , .runaways , .cloak , .wanda , .falcon , .loki , .whatif , .Spiderman-noway , .strange2 , .thorlove , .wakanda , .marvels , .antman2 , .hawkeye , .msmarvel , .moon-knight , .shehulk , .secret-invasion , .guardians3{
+        flex-direction: column;
+    }
+    .img-ironman1 ,  .img-hulk , .img-ironman2 , .img-thor , .img-capitan , .img-avengers , .img-ironman3 , .img-thor-dark , .img-capitain-winter , .img-guardians , .img-avengers-ultron , .img-antman , .img-capitain-civil , .img-strange , .img-guardians2 , .img-homecoming , .img-ragnarok , .img-pantera , .img-infinity , .img-antman-wasp , .img-capitana-marvel , .img-endgame , .img-spiderman-farfrom , .img-widow , .img-shang-chi , .img-eternals , .img-shield , .img-inhumans , .img-daredevil , .img-jessica , .img-luke , .img-iron , .img-defenders , .img-punisher , .img-runaways , .img-wanda , .img-falcon , .img-loki {
+        width: 317px;
+        height: 450px;
+        padding-bottom: 5px;
+    }
+        /* especificos - series */
+    .img-cloak , .img-whatif , .img-spiderman-noway , .img-strange2{
+        padding-bottom: 5px;
+    }
+    .img-reseña-eternals , .img-reseña-iron{
+        width: 361px;
+    }
+    .exp-serie{
+        display: flex;
+    }
+    .listnav-serie{
+        padding-bottom: 5px;
+    }
+
+    footer{
+        width: 100%;
+    }
+}

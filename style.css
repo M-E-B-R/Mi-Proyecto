@@ -258,11 +258,12 @@ footer{
 }
          /* Media queries */
     /* General */
-@media (max-width:768px) {
+@media (max-width:426px) {
     .list-nav{
         padding: 0;
         text-align: center;
         font-size: 14px;
+        gap: 5px;
     }
     .encabezado{
         width: 100%;
@@ -300,7 +301,7 @@ footer{
     .listnav-serie{
         padding-bottom: 5px;
     }
-
+        /* Footer */
     footer{
         width: 100%;
     }

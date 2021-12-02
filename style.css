@@ -53,8 +53,8 @@ color: black;
     justify-content: space-between;
 }
 .fase1-i , .fase2-i , .fase3-i , .fase4-i{
-    width: 400px;
-    height: 216px;
+    width: 321px;
+    height: 180px;
 }
 .orden-cronologico{
     display: flex;

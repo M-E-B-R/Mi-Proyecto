@@ -259,9 +259,6 @@ footer{
          /* Media queries */
     /* General */
 @media (max-width:768px) {
-    .logo{
-        display: none;
-    }
     .list-nav{
         padding: 0;
         text-align: center;
